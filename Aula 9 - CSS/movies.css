@@ -1,5 +1,5 @@
 *{
-    color:blue;
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -10,4 +10,19 @@ body{
 
 p{ 
     color: rgba(255, 38, 0, 0.568);
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse:collapse;
+}
+
+th{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: whitesmoke;
+}
+
+td{
+    background-color: whitesmoke;
+    
 }
