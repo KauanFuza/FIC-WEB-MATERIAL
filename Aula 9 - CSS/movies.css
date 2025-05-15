@@ -1,0 +1,13 @@
+*{
+    color:blue;
+    text-align: center;
+}
+
+body{
+    background-color: rgba(114, 114, 148, 0.39);
+    font-family: "Roboto", sans-serif;
+}
+
+p{ 
+    color: rgba(255, 38, 0, 0.568);
+}
