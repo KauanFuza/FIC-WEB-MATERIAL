@@ -10,3 +10,8 @@ table, td, th{
     background-color: rgba(128, 128, 128, 0.37);
 
 }
+
+.voltar{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
