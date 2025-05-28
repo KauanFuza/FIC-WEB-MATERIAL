@@ -2,7 +2,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
+    </head>
+    <body>
         <form>
+            <fieldset>
             <label for="nomesobrenome">Nome e sobrenome</label>
             <input type="text" id="nomesobrenome" class="input_padrao" required autofocus>
             
@@ -11,9 +14,7 @@
             
             <label for="telefone">Telefone</label>
             <input type="tel" id="telefone" class="input_padrao" required placeholder="(XX)XXXXX-XXXX">
-           
-            <label for="mensagem">Deixe sua opnião sobre o conteudo do site:</label>
-            <textarea cols="30" rows="5" name="mensagem" class="input_padrao"></textarea>
+            </fieldset>
 
             <fieldset>
                 <legend>Selecione o(s) tema(s) que tem interesse:</legend>
@@ -27,10 +28,15 @@
                     <option>Saude</option>
                     </select>  
             </fieldset>
+
+            <fieldset>
+            <label for="mensagem">Deixe sua opnião sobre o conteudo do site:</label>
+            <textarea cols="30" rows="5" name="mensagem" id="mensagem" class="input_padrao"></textarea>
+            </fieldset>
+           
             <label><input type="checkbox" class="checkbox"> Gostaria de receber nossas novidades por e-mail ?</label>
             <button type="submit">Enviar</button>
+            
         </form>
-    </head>
-    <body>
     </body>
 </html>
