@@ -1,0 +1,13 @@
+input[type] {
+    border: 2px solid blue;
+    }
+    a[href^="https"] {
+    color: green;
+    }
+    a[target] {
+    color: crimson;
+    }
+    img[alt$="logo"] {
+    border: 2px dashed red;
+    width: 200px;
+    }

@@ -1,0 +1,14 @@
+p::first-line {
+    font-variant: small-caps;
+    }
+    /* p::before {
+    content: " ";
+    } */
+    ::selection {
+    background-color: black;
+    color: whitesmoke;
+    }
+    li::marker {
+    color: green;
+    font-size: 16px;
+    }
