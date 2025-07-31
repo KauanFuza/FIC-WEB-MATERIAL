@@ -4,7 +4,7 @@
 body {
     margin: 0;
     display: grid;
-    grid-template-areas: "header header header";
+    grid-template-areas: "header";
 }
 header{
     background-color: black;
