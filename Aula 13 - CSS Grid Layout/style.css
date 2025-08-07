@@ -10,8 +10,8 @@ header{
     padding: auto;
 }
 nav{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
     background-color: rgb(37, 37, 87);
 
 }
