@@ -7,8 +7,17 @@
 header{
     background-color: rgba(35, 109, 247, 0.74);
     color: white;
+    padding: auto;
 }
 nav{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(37, 37, 87);
+
+}
+li{
+    display: inline-block;
+}
+a{
+    color: white;
 }
