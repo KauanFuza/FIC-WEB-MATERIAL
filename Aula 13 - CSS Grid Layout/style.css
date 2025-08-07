@@ -1,32 +1,3 @@
-/* *{
-    text-align: center;
-}
-body {
-    margin: 0;
-    display: grid;
-    grid-template-areas: "header";
-}
-header{
-    background-color: black;
-    color: white;
-    grid-area: header;
-}
-nav{
-    background-color: yellow;
-    grid-area: nav;
-}
-main{
-    background-color: tan;
-    grid-area: main;
-}
-aside{
-    background-color: brown;
-    grid-area: aside;
-}
-footer{
-    background-color: blue;
-    grid-area: footer;
-} */
 
 *{
     text-align: center;
@@ -36,4 +7,8 @@ footer{
 header{
     background-color: rgba(35, 109, 247, 0.74);
     color: white;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
