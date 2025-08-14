@@ -1,0 +1,26 @@
+body{
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "footer footer footer";
+    grid-template-columns: 2fr 2fr 1fr;
+}
+head{
+    grid-area: header;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
+li{
+    display: inline-block;
+}
+footer{
+    grid-area: footer;
+}
