@@ -1,3 +1,25 @@
 body{
-    background-color: b5d6d6;
+    background-color:#b5d6d6;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'main main main'
+    'footer footer footer';
+    margin: 0px;
+}
+header{
+    grid-area: header;
+    background-color: #001427;
+    color: #B5D6D6;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header h1{
+    margin: 0px;
+    display: inline-block;
+}
+header nav{
+    display: inline-block;
 }
