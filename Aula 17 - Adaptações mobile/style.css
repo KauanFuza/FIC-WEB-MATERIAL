@@ -23,3 +23,8 @@ header h1{
 header nav{
     display: inline-block;
 }
+header nav ul li{
+    display: inline;
+    padding-left: 30px;
+    font-size: 1.2rem;
+}
