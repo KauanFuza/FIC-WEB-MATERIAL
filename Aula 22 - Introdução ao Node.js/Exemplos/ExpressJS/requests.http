@@ -1,0 +1,14 @@
+GET http://localhost:3000/clientes
+
+###
+POST http://localhost:3000/clientes
+Content-Type: application/json
+
+{
+    "nome": "Helder",
+    "data_nasc": "1990-02-02",
+    "email": "helderjfl@gmail.com"
+}
+
+###
+GET http://localhost:3000/clientes/4
