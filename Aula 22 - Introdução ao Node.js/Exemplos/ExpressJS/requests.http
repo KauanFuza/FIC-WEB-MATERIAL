@@ -6,8 +6,9 @@ Content-Type: application/json
 
 {
     "nome": "Helder",
-    "data_nasc": "1990-02-02",
     "email": "helderjfl@gmail.com"
+    "cpf": "1111111111"
+    "data_nasc": "1990-02-02",
 }
 
 ###

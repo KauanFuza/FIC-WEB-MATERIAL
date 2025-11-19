@@ -13,3 +13,8 @@ export async function getClientes() {
     const [rows] = await connection.execute('SELECT * FROM cliente');
     return rows;
 }
+
+export async function creatCliente(cliente) {
+    const {nome, email, cpf, data_nascimento} = cliente
+    
+}

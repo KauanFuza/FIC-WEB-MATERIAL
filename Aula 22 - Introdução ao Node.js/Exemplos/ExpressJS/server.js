@@ -22,7 +22,7 @@ app.get('/clientes/:id', (req, res) => {
 })
 
 app.post('/clientes', (req, res) => {
-    const { nome, data_nasc, email } = req.body
+    const { nome, data_nascimento, email, cpf } = req.body
     res.status(201).send({ "message": `Criado o usuário ${nome}` })
 })
 
