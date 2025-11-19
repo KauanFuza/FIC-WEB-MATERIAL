@@ -14,7 +14,26 @@ export async function getClientes() {
     return rows;
 }
 
-export async function creatCliente(cliente) {
-    const {nome, email, cpf, data_nascimento} = cliente
-    
+export async function getCliente(id) {
+    const [rows] = await connection.execute('SELECT * FROM cliente where id = ?', [id]);
+    return rows;
+}
+
+export async function removeCliente(id) {
+    const [results] = await connection.execute('DELETE FROM cliente where id = ?', [id])
+    console.log(results)
+    return results;
+}
+
+export async function updateCliente(id, cliente) {
+    const { nome, email, cpf, data_nascimento } = cliente
+    const [results] = await connection.execute('UPDATE cliente SET nome = ?, email = ?, cpf = ?, data_nascimento = ? WHERE id = ?', [nome, email, cpf, data_nascimento, id])
+    console.log(results)
+    return results;
+}
+
+export async function createCliente(cliente) {
+    const { nome, email, cpf, data_nascimento } = cliente
+    const [results] = await connection.execute('INSERT INTO cliente (nome, email, cpf, data_nascimento) values (?, ?, ?, ?)', [nome, email, cpf, data_nascimento ])
+    return results.insertId
 }

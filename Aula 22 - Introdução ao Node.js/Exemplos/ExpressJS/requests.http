@@ -1,15 +1,32 @@
 GET http://localhost:3000/clientes
 
 ###
+GET http://localhost:3000/clientes/18
+
+###
+DELETE http://localhost:3000/clientes/27
+
+###
 POST http://localhost:3000/clientes
 Content-Type: application/json
 
 {
     "nome": "Helder",
-    "email": "helderjfl@gmail.com"
-    "cpf": "1111111111"
-    "data_nasc": "1990-02-02",
+    "email": "helderjfl@gmail.com",
+    "cpf": "21111111111",
+    "data_nascimento": "1990-02-02T03:00:00.000Z"
 }
 
 ###
 GET http://localhost:3000/clientes/4
+
+###
+PUT http://localhost:3000/clientes/24
+Content-Type: application/json
+
+{
+    "nome": "Josefina",
+    "email": "josefina@gmail.com",
+    "cpf": "21111111112",
+    "data_nascimento": "2001-05-22T03:00:00.000Z"
+}
